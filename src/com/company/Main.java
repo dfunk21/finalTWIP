@@ -21,7 +21,19 @@ public class Main  {
             maxIndex++;
             funky.add(scan.nextLine());
         }
-        
+
+        int secNum = 0;
+        double ques1 = 0;
+        double ques2 = 0;
+
+        Students stud = new Students (scan.nextLine(), secNum, ques1, ques2);
+
+        while (scan.hasNext()) {
+           secNum = Integer.parseInt(scan.nextLine());
+
+            
+        }
+
 
 
     }
